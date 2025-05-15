@@ -171,8 +171,8 @@ def get_configs(args):
 
     return configs, chop_stride
 
-def main():
-    args = get_parser()
+def main(args):
+    # args = get_parser()
 
     configs, chop_stride = get_configs(args)
 
@@ -202,5 +202,5 @@ def main():
             noise_repeat=False
             )
 
-if __name__ == '__main__':
-    main()
+# if __name__ == '__main__':
+#     main()
